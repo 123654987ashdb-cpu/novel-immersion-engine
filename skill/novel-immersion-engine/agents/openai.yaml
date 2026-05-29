@@ -1,0 +1,4 @@
+interface:
+  display_name: "小说沉入工程"
+  short_description: "接管小说工作流完成五级推演正文交接验收校准与经验反哺"
+  default_prompt: "请使用 $novel-immersion-engine 接管当前小说项目：先读取 00-项目运行规则.md 与 00-项目控制台.md，按下一节点把正式产物写回项目并更新控制台。"

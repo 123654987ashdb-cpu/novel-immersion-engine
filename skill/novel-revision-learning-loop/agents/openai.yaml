@@ -1,0 +1,4 @@
+interface:
+  display_name: "作者改稿学习循环"
+  short_description: "复盘作者改稿并沉淀总体创作经验与文笔执行经验双经验包"
+  default_prompt: "请使用 $novel-revision-learning-loop 对照章节蓝图、AI初稿和作者最终稿，提炼总体经验增量与文笔经验增量。"

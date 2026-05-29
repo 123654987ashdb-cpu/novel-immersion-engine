@@ -1,0 +1,4 @@
+interface:
+  display_name: "小说正文渲染器"
+  short_description: "根据章节蓝图生成沉浸小说正文并吸收文笔经验防止说明书腔"
+  default_prompt: "请使用 $novel-prose-renderer 根据阶段正文交接包和文笔执行经验包生成小说正文，只写正文，不重做剧情策划。"

@@ -1,0 +1,11 @@
+# Private story projects created from the public workflow
+workflow/项目库/*
+!workflow/项目库/.workflow-project-library
+
+# Local/editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+*.pyc
