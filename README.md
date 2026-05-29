@@ -1,10 +1,25 @@
-# 小说沉入工程 / Novel Immersion Engine
+# NovelForge Engine / 小说锻炉引擎
 
-> Project container + reasoning executor for long-form fiction.
+> Forge long-form novels with a stateful AI workflow: outline, blueprint, draft, validate, learn, and evolve.
 
-`小说沉入工程` 不是“和 AI 聊天写小说”的玩具。它是一套把长篇小说拆成可追踪项目的工程化工作流：用 `workflow` 保存小说状态，用 `skill` 驱动 AI 做推理、交接、正文执行、验收与复盘学习。
+**NovelForge Engine**，中文内核名 **小说沉入工程**，不是“和 AI 聊天写小说”的玩具。它是一套面向长篇小说、网文连载和续写工程的 AI 创作操作系统：把一部小说拆成可追踪、可验收、可复盘、可持续进化的项目。
 
-它的目标不是替代作者，而是把 AI 最擅长的繁重推理变成稳定流程：总纲、分卷、阶段、章节蓝图、人物变化、关系变化、伏笔、认知边界、物品/能力效果、正文交接、作者改稿学习和后续路线校准。
+它不追求让 AI 一口气吐出漂亮但失控的正文，而是先锻造长篇真正需要的骨架：总纲、分卷、阶段、章节蓝图、人物变化、关系推进、伏笔债务、认知边界、关键物品、能力/物品效果、正文交接、验收门禁、作者改稿学习和后续路线校准。
+
+如果普通提示词是在“请 AI 写一章”，NovelForge 做的是：
+
+```text
+把小说变成一个会记忆、会验收、会复盘、会从作者改稿中进化的创作系统。
+```
+
+## 它厉害在哪里
+
+- **不是一次性提示词，而是小说项目容器**：所有素材、规划、正文、账本、验收和经验包都有固定位置。
+- **不是机械大纲，而是五级锻造流程**：总纲 -> 分卷 -> 阶段 -> 章节 -> 正文蓝图。
+- **不是让正文端填空，而是保留受控想象力**：锁住关键因果，把场景路径、对白、潜台词和意象交给正文模型发挥。
+- **不是写完就算，而是带验收门禁**：正文必须通过人物、关系、伏笔、信息边界、物品/能力效果和代价检查。
+- **不是每章从零开始，而是会学习作者改稿**：AI 初稿和作者终稿会被复盘，沉淀为总体创作经验包与文笔执行经验包。
+- **不是单模型依赖，而是多端协作**：Codex / Claude Code 负责推理与项目控制，GPT / Claude 负责正文表现，作者负责审美和最终选择。
 
 ## 核心架构
 
@@ -172,6 +187,18 @@ python workflow/新建小说项目.py --name "我的小说" --mode "初始想法
 | Gitee | 国内镜像，方便网文作者稳定下载压缩包 |
 
 同步方式可以很简单：GitHub 作为主仓库，Gitee 定期同步镜像；或者本地同时添加两个 remote，发布版本时同时 push。
+
+## 推荐仓库信息
+
+如果你要在平台上改名，推荐：
+
+```text
+Repository name: novel-forge-engine
+Display name: NovelForge Engine / 小说锻炉引擎
+Description: Long-form novel AI workflow that turns ideas into stateful story projects with outlines, chapter blueprints, prose handoff, validation gates, and author-edit learning.
+中文简介：长篇小说 AI 工程化工作流：把灵感锻造成可追踪的小说项目，管理总纲、分卷、章节蓝图、正文交接、验收门禁与作者改稿学习。
+Topics: ai-writing, novel-writing, longform-fiction, webnovel, creative-writing, workflow, codex, claude, gpt, writing-tools
+```
 
 ## License
 
